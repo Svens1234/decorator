@@ -14,3 +14,12 @@ stand_alone_function()
 stand_alone_function_decorated = my_shiny_new_decorator(stand_alone_function)
 stand_alone_function_decorated()
 
+
+@my_shiny_new_decorator
+def stand_alone_function():
+    print("Я простая одинокая функция, ты ведь не посмеешь меня изменять?")
+
+
+stand_alone_function()
+
+
